@@ -95,7 +95,7 @@
         <div class="contacto-info">
             <p>📞 <strong>Teléfono:</strong> 995248477</p>
             <p>📍 <strong>Ubicación:</strong> Piura, Perú</p>
-            <p>✉️ <strong>Email:</strong> abogadamariaroque@gmail.pe</p>
+            <p>✉️ <strong>Email:</strong> abogadamariaroque@gmail.com</p>
             <!-- Botones de redes sociales y WhatsApp -->
             <div class="redes-sociales">
                 <a href="https://wa.me/51995248477?text=Hola%2C%20me%20comunico%20desde%20la%20web" target="_blank" class="btn-redes whatsapp" rel="noopener">
@@ -109,15 +109,20 @@
                 </a>
             </div>
         </div>
-        <form action="https://formsubmit.co/abogadamariaroque@gmail.pe" method="POST">
+        <form action="https://formsubmit.co/estudiojuridicoroan@gmail.com" method="POST" id="contact-form">
             <input type="hidden" name="_subject" value="Nuevo mensaje desde la web">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
-        
+            <!-- Redirigir después del envío (crea una página gracias.html) -->
+            <input type="hidden" name="_next" value="https://estudiojuridicoroan.github.com/web">
+            <!-- Enviar copia al remitente (opcional) -->
+            <input type="hidden" name="_cc" value="estudiojuridicoroan@gmail.com">
+            
             <input type="text" name="nombre" placeholder="Nombre" required>
             <input type="email" name="email" placeholder="Correo" required>
             <textarea name="mensaje" placeholder="Mensaje" required></textarea>
             <button type="submit">Enviar Mensaje</button>
+            <div class="form-mensaje" id="form-mensaje"></div>
         </form>
     </div>
 </section>
