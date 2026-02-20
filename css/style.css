@@ -138,12 +138,15 @@ nav a:hover {
 }
 
 .perfil-card img {
+  .perfil-card img {
   width: 180px;
-  height: 180px;
+  height: auto;            /* 👈 importante */
+  max-height: 300px;       /* opcional, controla tamaño */
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;     /* 👈 muestra la imagen completa */
   border: 2px solid #d4af37;
-  flex: 0 0 180px;          /* No crece, no se encoge, base 180px */
+  flex: 0 0 180px;
+}
 }
 
 .perfil-card > div {
@@ -379,3 +382,4 @@ form button:hover {
 @media (max-width: 480px) {
   .btn-redes { width: 100%; }
 }
+
