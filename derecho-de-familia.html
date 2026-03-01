@@ -36,10 +36,21 @@
     }
     </script>
     <style>
+         body {
+            padding-top: 100px; /* Compensa header fijo */
+            color: white;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
         .faq-item { margin-bottom: 15px; }
-        .faq-question { font-weight: bold; color: #003366; }
-        .contact-info { background: #eef; padding: 15px; border-left: 4px solid #003366; border-radius: 5px; margin: 20px 0; }
-        .btn-cta { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .faq-question { font-weight: bold; color: #9fc9f3 !important; } /* Forzado */
+        .contact-info { padding: 15px; border-left: 4px solid #9fc9f3; border-radius: 5px; margin: 20px 0; color: white !important; }
+        .service-detail { padding: 20px; border-radius: 5px; margin-top: 20px; color: white !important; }
+        .btn-cta { display: inline-block; background: #003366; color: white !important; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
         .btn-cta:hover { background: #002244; }
     </style>
 </head>
@@ -61,11 +72,11 @@
     </header>
 
     <main>
-        <section class="contenido-servicio" style="padding: 40px 20px; max-width: 1200px; margin: auto;">
+        <section class="contenido-servicio" style="max-width: 1200px; margin: auto; padding: 20px;">
             <h1>Derecho de Familia en Piura</h1>
             <p>En el <strong>Estudio Jurídico Roan</strong> entendemos la sensibilidad de los asuntos familiares. Nuestra abogada, María Lizbeth Roque Ancajima, te brinda un acompañamiento cercano pero firme para proteger tus derechos y los de tus seres queridos.</p>
             
-            <div class="service-detail" style="background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px;">
+            <div class="service-detail">
                 <h2>Áreas de práctica en Derecho de Familia</h2>
                 <ul>
                     <li><strong>Divorcios:</strong> Asesoría en divorcios de mutuo acuerdo y contenciosos, incluyendo liquidación de sociedad de gananciales.</li>
@@ -100,6 +111,7 @@
                 <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
                 <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
                 <a href="index.html#contacto" class="btn-cta">Solicitar consulta</a>
+                <a href="index.html#servicios" class="btn-cta">← Volver a Servicios</a>
             </div>
         </section>
     </main>
