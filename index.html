@@ -9,9 +9,8 @@
     <meta name="geo.placename" content="Piura">
     <meta name="description" content="Estudio Jurídico Roan en Piura, Perú. Abogada especialista en Derecho Civil, Penal, Laboral y de Familia. Asesoría legal, defensa judicial y conciliación extrajudicial. Consultas al 995248477.">
     <title>Estudio Jurídico Roan | Abogados en Piura | Derecho Civil, Penal, Laboral y Familiar</title>
-    <!-- Canonical: ayuda a evitar contenido duplicado -->
     <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/">
-    <!-- Datos estructurados para negocio local y servicios legales -->
+    <!-- Datos estructurados -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -42,238 +41,188 @@
             "@type": "OfferCatalog",
             "name": "Servicios Legales",
             "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Derecho Civil",
-                        "url": "https://estudiojuridicoroan.github.io/web/derecho-civil.html"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Derecho de Familia",
-                        "url": "https://estudiojuridicoroan.github.io/web/derecho-de-familia.html"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Derecho Laboral",
-                        "url": "https://estudiojuridicoroan.github.io/web/derecho-laboral.html"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Derecho Penal",
-                        "url": "https://estudiojuridicoroan.github.io/web/derecho-penal.html"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Conciliación Extrajudicial",
-                        "url": "https://estudiojuridicoroan.github.io/web/conciliacion-extrajudicial.html"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Asesoría Documentaria",
-                        "url": "https://estudiojuridicoroan.github.io/web/asesoria-documentaria.html"
-                    }
-                }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Derecho Civil", "url": "https://estudiojuridicoroan.github.io/web/derecho-civil.html" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Derecho de Familia", "url": "https://estudiojuridicoroan.github.io/web/derecho-de-familia.html" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Derecho Laboral", "url": "https://estudiojuridicoroan.github.io/web/derecho-laboral.html" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Derecho Penal", "url": "https://estudiojuridicoroan.github.io/web/derecho-penal.html" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conciliación Extrajudicial", "url": "https://estudiojuridicoroan.github.io/web/conciliacion-extrajudicial.html" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Asesoría Documentaria", "url": "https://estudiojuridicoroan.github.io/web/asesoria-documentaria.html" } }
             ]
         }
     }
     </script>
-    <!-- FontAwesome para iconos sociales -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Tu archivo CSS existente (asegúrate de que la ruta sea correcta) -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Estilos adicionales (puedes moverlos a tu CSS) -->
+    <!-- Estilo para corregir cabecera fija (ajusta la altura según tu header real) -->
     <style>
-        /* Pequeños ajustes para mejorar la legibilidad de los enlaces en servicios */
-        .servicio-card h3 a {
-            text-decoration: none;
-            color: inherit;
+        body {
+            padding-top: 80px; /* Espacio para header fijo */
         }
-        .servicio-card h3 a:hover {
-            text-decoration: underline;
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        /* Asegurar legibilidad en secciones oscuras si las hubiera */
+        .servicio-card, .perfil-card, .contacto-info, #contact-form {
+            color: white; /* texto oscuro sobre fondo claro */
         }
     </style>
 </head>
 <body>
-
-<header class="header">
-    <div class="nav-container">
-        <div class="logo">
-            <a href="index.html" aria-label="Inicio">
-                <img src="img/logo.png" alt="Estudio Jurídico Roan - Abogados en Piura">
-            </a>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Estudio Jurídico Roan - Abogados en Piura">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#perfil">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav aria-label="Menú principal">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#perfil">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <!-- Enlace a la página de equipo (si quieres mantenerlo) -->
-                <li><a href="equipo.html">Nuestro Equipo</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<main>
-    <section id="inicio" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Estudio Jurídico Roan & Asociados</h1>
-            <p class="hero-subtitle"><strong>Litigio con Firmeza, Asesoría con Humanidad</strong></p>
-            <p>Abogados en Piura especializados en Derecho Civil, Penal, Laboral y Familia</p>
-            <a href="#servicios" class="btn">Conozca Nuestros Servicios</a>
-        </div>
-    </section>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Estudio Jurídico Roan & Asociados</h1>
+                <p class="hero-subtitle"><strong>Litigio con Firmeza, Asesoría con Humanidad</strong></p>
+                <p>Abogados en Piura especializados en Derecho Civil, Penal, Laboral y Familia</p>
+                <a href="#servicios" class="btn">Conozca Nuestros Servicios</a>
+            </div>
+        </section>
 
-    <section id="perfil" class="perfil" aria-labelledby="perfil-heading">
-        <h2 id="perfil-heading" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;">Nuestro equipo legal</h2>
-        <div class="perfil-card">
-            <img src="img/abogada.png" alt="Abogada María Lizbeth Roque Ancajima, litigante y conciliadora en Piura">
-            <div>
-                <h3>Abogada María Lizbeth Roque Ancajima</h3>
-                <p><strong>Litigante – Conciliadora</strong> | ICAP 05437</p>
-                <p>Especializada en <strong>Derecho Penal, Derecho Civil, Derecho Laboral y Derecho de Familia</strong>. Con amplia experiencia en tribunales y centros de conciliación en Piura.</p>
-                <p>En Estudio Jurídico Roan ofrecemos asesoría legal personalizada, brindamos soluciones firmes con un enfoque humano.</p>
-            </div>
-        </div>
-        <div class="perfil-card">
-            <img src="img/abogado.png" alt="Luis Abraham Alvarado Sorroza, asistente legal en Estudio Jurídico Roan">
-            <div>
-                <h3>Luis Abraham Alvarado Sorroza</h3>
-                <p><strong>Asistente Legal</strong> | Titulado en Derecho y Ciencias Políticas - UPAO</p>
-                <p>Apoyo jurídico en la elaboración de escritos, organización de documentación legal, control de plazos procesales y coordinación administrativa de casos en distintas áreas del Derecho.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="servicios" class="servicios" aria-labelledby="servicios-heading">
-        <h2 id="servicios-heading">Servicios Legales</h2>
-        <div class="servicios-grid">
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">⚖️</div>
-                <h3><a href="derecho-civil.html">Derecho Civil</a></h3>
-                <p>Contratos, sucesiones, obligaciones y responsabilidad civil. Asesoría integral para personas y empresas en Piura. <a href="derecho-civil.html">Leer más</a></p>
-            </div>
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">🏛️</div>
-                <h3><a href="derecho-de-familia.html">Derecho de Familia</a></h3>
-                <p>Divorcios, tenencia, alimentos, filiación y violencia familiar. Acompañamiento con sensibilidad y firmeza. <a href="derecho-de-familia.html">Leer más</a></p>
-            </div>
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">💼</div>
-                <h3><a href="derecho-laboral.html">Derecho Laboral</a></h3>
-                <p>Despidos, contratos de trabajo, negociaciones colectivas y defensa del trabajador o empleador. <a href="derecho-laboral.html">Leer más</a></p>
-            </div>
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">🔒</div>
-                <h3><a href="derecho-penal.html">Derecho Penal</a></h3>
-                <p>Defensa penal estratégica, asesoría a víctimas, delitos económicos y penitenciario. <a href="derecho-penal.html">Leer más</a></p>
-            </div>
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">📊</div>
-                <h3><a href="conciliacion-extrajudicial.html">Conciliación Extrajudicial</a></h3>
-                <p>Soluciones rápidas y efectivas mediante el diálogo, evitando procesos judiciales largos. <a href="conciliacion-extrajudicial.html">Leer más</a></p>
-            </div>
-            <div class="servicio-card">
-                <div class="servicio-icono" aria-hidden="true">📝</div>
-                <h3><a href="asesoria-documentaria.html">Asesoría Documentaria</a></h3>
-                <p>Elaboración de contratos, testamentos, actas y documentos legales a medida. <a href="asesoria-documentaria.html">Leer más</a></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto" class="contacto" aria-labelledby="contacto-heading">
-        <h2 id="contacto-heading">Contacto</h2>
-        <div class="contacto-grid">
-            <div class="contacto-info">
-                <p><strong>📞 Teléfono:</strong> <a href="tel:+51995248477">995 248 477</a> (también WhatsApp)</p>
-                <p><strong>📍 Ubicación:</strong> Piura, Perú (atendemos previa cita)</p>
-                <p><strong>✉️ Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
-                <!-- Botones de redes sociales y WhatsApp -->
-                <div class="redes-sociales">
-                    <a href="https://wa.me/51995248477?text=Hola%2C%20me%20comunico%20desde%20la%20web" target="_blank" class="btn-redes whatsapp" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
-                    </a>
-                    <a href="https://www.facebook.com/share/1B1RhXfiPV/" target="_blank" class="btn-redes facebook" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i> Facebook
-                    </a>
-                    <a href="https://www.tiktok.com/@estudiojuridicoroan?_r=1&_t=ZS-940Vo5L2GHN" target="_blank" class="btn-redes tiktok" rel="noopener noreferrer">
-                        <i class="fab fa-tiktok" aria-hidden="true"></i> TikTok
-                    </a>
+        <section id="perfil" class="perfil">
+            <h2 class="visually-hidden">Nuestro equipo legal</h2>
+            <div class="perfil-card">
+                <img src="img/abogada.png" alt="Abogada María Lizbeth Roque Ancajima, litigante y conciliadora en Piura">
+                <div>
+                    <h3>Abogada María Lizbeth Roque Ancajima</h3>
+                    <p><strong>Litigante – Conciliadora</strong> | ICAP 05437</p>
+                    <p>Especializada en <strong>Derecho Penal, Derecho Civil, Derecho Laboral y Derecho de Familia</strong>. Con amplia experiencia en tribunales y centros de conciliación en Piura.</p>
+                    <p>En Estudio Jurídico Roan ofrecemos asesoría legal personalizada, brindamos soluciones firmes con un enfoque humano.</p>
                 </div>
             </div>
-            <form action="https://formsubmit.co/estudiojuridicoroan@gmail.com" method="POST" id="contact-form">
-                <input type="hidden" name="_subject" value="Nuevo mensaje desde la web">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://estudiojuridicoroan.github.io/web/gracias.html">
-                <input type="hidden" name="_cc" value="estudiojuridicoroan@gmail.com">
-                
-                <label for="nombre" class="visually-hidden">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-                
-                <label for="email" class="visually-hidden">Correo electrónico</label>
-                <input type="email" id="email" name="email" placeholder="Correo" required>
-                
-                <label for="mensaje" class="visually-hidden">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
-                
-                <button type="submit">Enviar Mensaje</button>
-                <div class="form-mensaje" id="form-mensaje"></div>
-            </form>
+            <div class="perfil-card">
+                <img src="img/abogado.png" alt="Luis Abraham Alvarado Sorroza, asistente legal en Estudio Jurídico Roan">
+                <div>
+                    <h3>Luis Abraham Alvarado Sorroza</h3>
+                    <p><strong>Asistente Legal</strong> | Titulado en Derecho y Ciencias Políticas - UPAO</p>
+                    <p>Apoyo jurídico en la elaboración de escritos, organización de documentación legal, control de plazos procesales y coordinación administrativa de casos en distintas áreas del Derecho.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios">
+            <h2>Servicios Legales</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icono">⚖️</div>
+                    <h3><a href="derecho-civil.html">Derecho Civil</a></h3>
+                    <p>Contratos, sucesiones, obligaciones y responsabilidad civil. Asesoría integral para personas y empresas en Piura. <a href="derecho-civil.html">Leer más</a></p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icono">🏛️</div>
+                    <h3><a href="derecho-de-familia.html">Derecho de Familia</a></h3>
+                    <p>Divorcios, tenencia, alimentos, filiación y violencia familiar. Acompañamiento con sensibilidad y firmeza. <a href="derecho-de-familia.html">Leer más</a></p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icono">💼</div>
+                    <h3><a href="derecho-laboral.html">Derecho Laboral</a></h3>
+                    <p>Despidos, contratos de trabajo, negociaciones colectivas y defensa del trabajador o empleador. <a href="derecho-laboral.html">Leer más</a></p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icono">🔒</div>
+                    <h3><a href="derecho-penal.html">Derecho Penal</a></h3>
+                    <p>Defensa penal estratégica, asesoría a víctimas, delitos económicos y penitenciario. <a href="derecho-penal.html">Leer más</a></p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icono">📊</div>
+                    <h3><a href="conciliacion-extrajudicial.html">Conciliación Extrajudicial</a></h3>
+                    <p>Soluciones rápidas y efectivas mediante el diálogo, evitando procesos judiciales largos. <a href="conciliacion-extrajudicial.html">Leer más</a></p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icono">📝</div>
+                    <h3><a href="asesoria-documentaria.html">Asesoría Documentaria</a></h3>
+                    <p>Elaboración de contratos, testamentos, actas y documentos legales a medida. <a href="asesoria-documentaria.html">Leer más</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <p><strong>📞 Teléfono:</strong> <a href="tel:+51995248477">995 248 477</a> (también WhatsApp)</p>
+                    <p><strong>📍 Ubicación:</strong> Piura, Perú (atendemos previa cita)</p>
+                    <p><strong>✉️ Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
+                    <div class="redes-sociales">
+                        <a href="https://wa.me/51995248477?text=Hola%2C%20me%20comunico%20desde%20la%20web" target="_blank" class="btn-redes whatsapp" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://www.facebook.com/share/1B1RhXfiPV/" target="_blank" class="btn-redes facebook" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://www.tiktok.com/@estudiojuridicoroan?_r=1&_t=ZS-940Vo5L2GHN" target="_blank" class="btn-redes tiktok" rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/estudiojuridicoroan@gmail.com" method="POST" id="contact-form">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje desde la web">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://estudiojuridicoroan.github.io/web/gracias.html">
+                    <input type="hidden" name="_cc" value="estudiojuridicoroan@gmail.com">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                    <div class="form-mensaje" id="form-mensaje"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Estudio Jurídico Roan & Asociados — Todos los derechos reservados</p>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#perfil">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="derecho-civil.html">Derecho Civil</a></li>
+                    <li><a href="derecho-de-familia.html">Derecho de Familia</a></li>
+                    <li><a href="derecho-laboral.html">Derecho Laboral</a></li>
+                    <li><a href="derecho-penal.html">Derecho Penal</a></li>
+                    <li><a href="conciliacion-extrajudicial.html">Conciliación</a></li>
+                    <li><a href="asesoria-documentaria.html">Asesoría Documentaria</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
-</main>
+    </footer>
 
-<footer class="footer">
-    <div class="footer-content">
-        <p>© 2026 Estudio Jurídico Roan & Asociados — Todos los derechos reservados</p>
-        <nav aria-label="Enlaces legales y adicionales">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="equipo.html">Nuestro Equipo</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="derecho-civil.html">Derecho Civil</a></li>
-                <li><a href="derecho-de-familia.html">Derecho de Familia</a></li>
-                <li><a href="derecho-laboral.html">Derecho Laboral</a></li>
-                <li><a href="derecho-penal.html">Derecho Penal</a></li>
-                <li><a href="conciliacion-extrajudicial.html">Conciliación</a></li>
-                <li><a href="asesoria-documentaria.html">Asesoría Documentaria</a></li>
-            </ul>
-        </nav>
-    </div>
-</footer>
-
-<!-- Pequeño script para ocultar etiquetas visualmente (opcional) -->
-<style>
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        border: 0;
-    }
-</style>
+    <style>
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
 </body>
 </html>
