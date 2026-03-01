@@ -6,7 +6,8 @@
     <title>Abogado de Familia en Piura | Divorcio, Tenencia, Alimentos | Estudio Jurídico Roan</title>
     <meta name="description" content="Abogada especialista en Derecho de Familia en Piura. Divorcios, tenencia, alimentos, violencia familiar. Acompañamiento sensible y firme. ¡Consulta gratis!">
     <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/derecho-de-familia.html">
-    <!-- Datos estructurados para servicio legal -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -28,84 +29,99 @@
         },
         "openingHours": "Mo-Fr 09:00-18:00",
         "priceRange": "$$",
-        "sameAs": ["https://www.facebook.com/estudiojuridicoroan"]
+        "sameAs": [
+            "https://www.facebook.com/share/1B1RhXfiPV/",
+            "https://www.tiktok.com/@estudiojuridicoroan"
+        ]
     }
     </script>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
-        header { background: #003366; color: white; padding: 1rem 0; text-align: center; }
-        nav { background: #f4f4f4; padding: 0.5rem; text-align: center; }
-        nav a { margin: 0 10px; text-decoration: none; color: #003366; font-weight: bold; }
-        .container { width: 90%; max-width: 1200px; margin: auto; overflow: hidden; padding: 20px 0; }
-        h1 { color: #003366; }
-        .service-detail { background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px; }
-        .cta-button { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
-        footer { background: #003366; color: white; text-align: center; padding: 1rem 0; margin-top: 20px; }
         .faq-item { margin-bottom: 15px; }
         .faq-question { font-weight: bold; color: #003366; }
-        .contact-info { background: #eef; padding: 10px; border-left: 4px solid #003366; }
+        .contact-info { background: #eef; padding: 15px; border-left: 4px solid #003366; border-radius: 5px; margin: 20px 0; }
+        .btn-cta { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .btn-cta:hover { background: #002244; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Estudio Jurídico Roan & Asociados</h1>
-        <p>Abogados en Piura - Especialistas en Derecho de Familia</p>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Estudio Jurídico Roan - Abogados en Piura"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="index.html#perfil">Nosotros</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="derecho-civil.html">Derecho Civil</a>
-        <a href="derecho-de-familia.html">Derecho de Familia</a>
-        <a href="derecho-laboral.html">Derecho Laboral</a>
-        <a href="derecho-penal.html">Derecho Penal</a>
-        <a href="conciliacion-extrajudicial.html">Conciliación</a>
-        <a href="asesoria-documentaria.html">Asesoría Documentaria</a>
-        <a href="equipo.html">Equipo</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    <div class="container">
-        <h1>Derecho de Familia en Piura</h1>
-        <p>En el <strong>Estudio Jurídico Roan</strong> entendemos la sensibilidad de los asuntos familiares. Nuestra abogada, María Lizbeth Roque Ancajima, te brinda un acompañamiento cercano pero firme para proteger tus derechos y los de tus seres queridos.</p>
-        
-        <div class="service-detail">
-            <h2>Áreas de práctica en Derecho de Familia</h2>
-            <ul>
-                <li><strong>Divorcios:</strong> Asesoría en divorcios de mutuo acuerdo y contenciosos, incluyendo liquidación de sociedad de gananciales.</li>
-                <li><strong>Tenencia y régimen de visitas:</strong> Defensa de tus derechos parentales y el interés superior del niño.</li>
-                <li><strong>Alimentos:</strong> Fijación, aumento, reducción o cese de pensión alimenticia para hijos o cónyuge.</li>
-                <li><strong>Filiación:</strong> Reconocimiento de hijos, impugnación de paternidad y acciones de estado.</li>
-                <li><strong>Violencia familiar:</strong> Asesoría y patrocinio para víctimas de violencia, medidas de protección.</li>
-                <li><strong>Uniones de hecho:</strong> Reconocimiento y liquidación.</li>
-            </ul>
-        </div>
 
-        <div class="service-detail">
-            <h2>Preguntas frecuentes sobre Derecho de Familia</h2>
-            <div class="faq-item">
-                <div class="faq-question">¿Cuánto tiempo dura un proceso de divorcio en Piura?</div>
-                <p>Un divorcio de mutuo acuerdo puede resolverse en 2-3 meses. Un divorcio contencioso puede tomar de 6 meses a 1 año o más.</p>
+    <main>
+        <section class="contenido-servicio" style="padding: 40px 20px; max-width: 1200px; margin: auto;">
+            <h1>Derecho de Familia en Piura</h1>
+            <p>En el <strong>Estudio Jurídico Roan</strong> entendemos la sensibilidad de los asuntos familiares. Nuestra abogada, María Lizbeth Roque Ancajima, te brinda un acompañamiento cercano pero firme para proteger tus derechos y los de tus seres queridos.</p>
+            
+            <div class="service-detail" style="background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                <h2>Áreas de práctica en Derecho de Familia</h2>
+                <ul>
+                    <li><strong>Divorcios:</strong> Asesoría en divorcios de mutuo acuerdo y contenciosos, incluyendo liquidación de sociedad de gananciales.</li>
+                    <li><strong>Tenencia y régimen de visitas:</strong> Defensa de tus derechos parentales y el interés superior del niño.</li>
+                    <li><strong>Alimentos:</strong> Fijación, aumento, reducción o cese de pensión alimenticia para hijos o cónyuge.</li>
+                    <li><strong>Filiación:</strong> Reconocimiento de hijos, impugnación de paternidad y acciones de estado.</li>
+                    <li><strong>Violencia familiar:</strong> Asesoría y patrocinio para víctimas de violencia, medidas de protección.</li>
+                    <li><strong>Uniones de hecho:</strong> Reconocimiento y liquidación.</li>
+                </ul>
             </div>
-            <div class="faq-item">
-                <div class="faq-question">¿Cómo se calcula la pensión de alimentos?</div>
-                <p>El juez evalúa la necesidad del alimentista y la posibilidad económica del obligado. Normalmente es un porcentaje de los ingresos (30-60%).</p>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">¿Puedo quedarme con la custodia de mis hijos?</div>
-                <p>Sí, siempre que acredites que es lo mejor para el menor. Te asesoramos para presentar pruebas sólidas.</p>
-            </div>
-        </div>
 
-        <div class="contact-info">
-            <h3>¿Necesitas asesoría en Derecho de Familia?</h3>
-            <p>Contáctanos para una consulta personalizada. Te escuchamos y buscamos la mejor solución.</p>
-            <p><strong>Teléfono/WhatsApp:</strong> <a href="tel:+51995248477">995 248 477</a></p>
-            <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
-            <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
-            <a href="contacto.html" class="cta-button">Solicitar consulta</a>
+            <div class="faq" style="margin-top: 30px;">
+                <h2>Preguntas frecuentes sobre Derecho de Familia</h2>
+                <div class="faq-item">
+                    <div class="faq-question">¿Cuánto tiempo dura un proceso de divorcio en Piura?</div>
+                    <p>Un divorcio de mutuo acuerdo puede resolverse en 2-3 meses. Un divorcio contencioso puede tomar de 6 meses a 1 año o más.</p>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Cómo se calcula la pensión de alimentos?</div>
+                    <p>El juez evalúa la necesidad del alimentista y la posibilidad económica del obligado. Normalmente es un porcentaje de los ingresos (30-60%).</p>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Puedo quedarme con la custodia de mis hijos?</div>
+                    <p>Sí, siempre que acredites que es lo mejor para el menor. Te asesoramos para presentar pruebas sólidas.</p>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h3>¿Necesitas asesoría en Derecho de Familia?</h3>
+                <p>Contáctanos para una consulta personalizada. Te escuchamos y buscamos la mejor solución.</p>
+                <p><strong>Teléfono/WhatsApp:</strong> <a href="tel:+51995248477">995 248 477</a></p>
+                <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
+                <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
+                <a href="index.html#contacto" class="btn-cta">Solicitar consulta</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content" style="text-align: center; padding: 20px;">
+            <p>© 2025 Estudio Jurídico Roan & Asociados — Todos los derechos reservados</p>
+            <nav>
+                <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="index.html#perfil">Nosotros</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="derecho-civil.html">Derecho Civil</a></li>
+                    <li><a href="derecho-de-familia.html">Derecho de Familia</a></li>
+                    <li><a href="derecho-laboral.html">Derecho Laboral</a></li>
+                    <li><a href="derecho-penal.html">Derecho Penal</a></li>
+                    <li><a href="conciliacion-extrajudicial.html">Conciliación</a></li>
+                    <li><a href="asesoria-documentaria.html">Asesoría Documentaria</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <footer>
-        <p>&copy; 2025 Estudio Jurídico Roan & Asociados - Abogados en Piura</p>
-        <p>Síguenos en <a href="#" style="color:white;">Facebook</a> | <a href="#" style="color:white;">LinkedIn</a></p>
     </footer>
 </body>
 </html>
