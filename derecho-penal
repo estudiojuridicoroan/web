@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogado Penalista en Piura | Defensa Penal Estratégica | Estudio Jurídico Roan</title>
+    <meta name="description" content="Defensa penal estratégica en Piura. Asesoría a imputados y víctimas, delitos económicos, penitenciario. Abogada penalista con experiencia.">
+    <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/derecho-penal.html">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Estudio Jurídico Roan - Derecho Penal",
+        "description": "Defensa penal estratégica en Piura. Asesoría a imputados y víctimas.",
+        "url": "https://estudiojuridicoroan.github.io/web/derecho-penal.html",
+        "telephone": "+51995248477",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Piura",
+            "addressRegion": "Piura",
+            "addressCountry": "PE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-5.194",
+            "longitude": "-80.632"
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "$$",
+        "sameAs": ["https://www.facebook.com/estudiojuridicoroan"]
+    }
+    </script>
+    <style>/* mismo estilo */</style>
+</head>
+<body>
+    <header>
+        <h1>Estudio Jurídico Roan & Asociados</h1>
+        <p>Abogados en Piura - Especialistas en Derecho Penal</p>
+    </header>
+    <nav>...</nav>
+    <div class="container">
+        <h1>Derecho Penal en Piura</h1>
+        <p>La <strong>Dra. María Lizbeth Roque Ancajima</strong> cuenta con amplia experiencia en litigación penal, ofreciendo una defensa técnica, ética y agresiva cuando es necesario. Atendemos tanto a imputados como a víctimas.</p>
+        
+        <div class="service-detail">
+            <h2>Áreas de práctica en Derecho Penal</h2>
+            <ul>
+                <li><strong>Defensa penal estratégica:</strong> Desde la investigación preliminar hasta el juicio oral.</li>
+                <li><strong>Asesoría a víctimas:</strong> Representación en delitos como estafas, lesiones, robos.</li>
+                <li><strong>Delitos económicos:</strong> Estafas, apropiación ilícita, delitos tributarios.</li>
+                <li><strong>Derecho penitenciario:</strong> Beneficios penitenciarios, redención de pena, libertad condicional.</li>
+                <li><strong>Delitos de cuello blanco:</strong> Contra la administración pública, corrupción.</li>
+            </ul>
+        </div>
+
+        <div class="service-detail">
+            <h2>Preguntas frecuentes sobre Derecho Penal</h2>
+            <div class="faq-item">
+                <div class="faq-question">Me acusan de un delito, ¿qué hago?</div>
+                <p>No declares sin un abogado. Contáctanos de inmediato para dirigir tu defensa desde el inicio.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Qué es la prisión preventiva y cómo evitarla?</div>
+                <p>Es la cárcel antes del juicio. Se evita con argumentos sólidos que desvirtúen los requisitos (peligro de fuga, obstaculización).</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Puedo obtener beneficios penitenciarios?</div>
+                <p>Sí, dependiendo del tipo de delito y tu conducta. Te asesoramos en los requisitos.</p>
+            </div>
+        </div>
+
+        <div class="contact-info">...</div>
+    </div>
+    <footer>...</footer>
+</body>
+</html>
