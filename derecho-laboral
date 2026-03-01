@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogado Laboral en Piura | Despidos, Contratos | Estudio Jurídico Roan</title>
+    <meta name="description" content="Especialistas en Derecho Laboral en Piura. Defensa en despidos, contratos de trabajo, negociaciones colectivas. Asesoramos a trabajadores y empleadores.">
+    <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/derecho-laboral.html">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Estudio Jurídico Roan - Derecho Laboral",
+        "description": "Asesoría y defensa en Derecho Laboral en Piura para trabajadores y empleadores.",
+        "url": "https://estudiojuridicoroan.github.io/web/derecho-laboral.html",
+        "telephone": "+51995248477",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Piura",
+            "addressRegion": "Piura",
+            "addressCountry": "PE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-5.194",
+            "longitude": "-80.632"
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "$$",
+        "sameAs": ["https://www.facebook.com/estudiojuridicoroan"]
+    }
+    </script>
+    <style>
+        /* mismo estilo que en los anteriores */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header { background: #003366; color: white; padding: 1rem 0; text-align: center; }
+        nav { background: #f4f4f4; padding: 0.5rem; text-align: center; }
+        nav a { margin: 0 10px; text-decoration: none; color: #003366; font-weight: bold; }
+        .container { width: 90%; max-width: 1200px; margin: auto; overflow: hidden; padding: 20px 0; }
+        h1 { color: #003366; }
+        .service-detail { background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px; }
+        .cta-button { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        footer { background: #003366; color: white; text-align: center; padding: 1rem 0; margin-top: 20px; }
+        .faq-item { margin-bottom: 15px; }
+        .faq-question { font-weight: bold; color: #003366; }
+        .contact-info { background: #eef; padding: 10px; border-left: 4px solid #003366; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudio Jurídico Roan & Asociados</h1>
+        <p>Abogados en Piura - Especialistas en Derecho Laboral</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="derecho-civil.html">Derecho Civil</a>
+        <a href="derecho-de-familia.html">Derecho de Familia</a>
+        <a href="derecho-laboral.html">Derecho Laboral</a>
+        <a href="derecho-penal.html">Derecho Penal</a>
+        <a href="conciliacion-extrajudicial.html">Conciliación</a>
+        <a href="asesoria-documentaria.html">Asesoría Documentaria</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="container">
+        <h1>Derecho Laboral en Piura</h1>
+        <p>En el <strong>Estudio Jurídico Roan</strong> ofrecemos asesoría tanto a trabajadores como a empleadores. Nuestro objetivo es proteger tus derechos laborales y prevenir conflictos.</p>
+        
+        <div class="service-detail">
+            <h2>Áreas de práctica en Derecho Laboral</h2>
+            <ul>
+                <li><strong>Despidos:</strong> Calificación de despido (nulo, arbitrario o injustificado), indemnizaciones y reposición.</li>
+                <li><strong>Contratos de trabajo:</strong> Elaboración, modificación y asesoría en contratación laboral.</li>
+                <li><strong>Negociaciones colectivas:</strong> Asesoría a sindicatos y empresas en negociaciones y convenios.</li>
+                <li><strong>Beneficios sociales:</strong> Cálculo y reclamo de CTS, gratificaciones, vacaciones, utilidades.</li>
+                <li><strong>Defensa del trabajador:</strong> Hostigamiento, acoso laboral, discriminación.</li>
+                <li><strong>Defensa del empleador:</strong> Procedimientos sancionadores, inspecciones de SUNAFIL.</li>
+            </ul>
+        </div>
+
+        <div class="service-detail">
+            <h2>Preguntas frecuentes sobre Derecho Laboral</h2>
+            <div class="faq-item">
+                <div class="faq-question">Me despidieron sin motivo, ¿qué puedo hacer?</div>
+                <p>Tienes 30 días hábiles para reclamar. Podrías tener derecho a indemnización o reposición según el tipo de despido.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Cómo calculo mi liquidación de beneficios sociales?</div>
+                <p>Incluye CTS, vacaciones truncas, gratificaciones truncas y, en su caso, indemnización. Nosotros lo calculamos por ti.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Qué hacer si mi empleador no me paga las horas extras?</div>
+                <p>Debes reunir pruebas (boletas, correos, testigos) y presentar una denuncia. Te asesoramos en el proceso.</p>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h3>¿Necesitas asesoría laboral?</h3>
+            <p>Contáctanos para una consulta personalizada. Defendemos tus derechos laborales.</p>
+            <p><strong>Teléfono/WhatsApp:</strong> <a href="tel:+51995248477">995 248 477</a></p>
+            <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
+            <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
+            <a href="contacto.html" class="cta-button">Solicitar consulta</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Estudio Jurídico Roan & Asociados - Abogados en Piura</p>
+        <p>Síguenos en <a href="#" style="color:white;">Facebook</a> | <a href="#" style="color:white;">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
