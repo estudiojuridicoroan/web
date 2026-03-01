@@ -6,11 +6,8 @@
     <title>Abogado Derecho Civil en Piura | Estudio Jurídico Roan</title>
     <meta name="description" content="Especialistas en Derecho Civil en Piura. Contratos, sucesiones, obligaciones y responsabilidad civil. Asesoría integral para personas y empresas. ¡Consulta gratis!">
     <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/derecho-civil.html">
-    <!-- Mismo CSS que el index -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- FontAwesome (si lo necesita) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Datos estructurados -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -38,12 +35,23 @@
         ]
     }
     </script>
-    <!-- Estilos adicionales específicos (si no están en style.css) -->
     <style>
+        /* Ajustes específicos para esta página */
+        body {
+            padding-top: 100px; /* Compensa header fijo */
+            color: white;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
         .faq-item { margin-bottom: 15px; }
-        .faq-question { font-weight: bold; color: #003366; }
-        .contact-info { background: #eef; padding: 15px; border-left: 4px solid #003366; border-radius: 5px; margin: 20px 0; }
-        .btn-cta { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .faq-question { font-weight: bold; color: #9fc9f3 !important; } /* Forzado */
+        .contact-info { padding: 15px; border-left: 4px solid #9fc9f3; border-radius: 5px; margin: 20px 0; color: white !important; }
+        .service-detail { padding: 20px; border-radius: 5px; margin-top: 20px; color: white !important; }
+        .btn-cta { display: inline-block; background: #003366; color: white !important; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
         .btn-cta:hover { background: #002244; }
     </style>
 </head>
@@ -51,9 +59,7 @@
     <header class="header">
         <div class="nav-container">
             <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="Estudio Jurídico Roan - Abogados en Piura">
-                </a>
+                <a href="index.html"><img src="img/logo.png" alt="Estudio Jurídico Roan - Abogados en Piura"></a>
             </div>
             <nav>
                 <ul>
@@ -67,12 +73,11 @@
     </header>
 
     <main>
-        <!-- Contenido específico de Derecho Civil -->
-        <section class="contenido-servicio" style="padding: 40px 20px; max-width: 1200px; margin: auto;">
+        <section class="contenido-servicio" style="max-width: 1200px; margin: auto; padding: 20px;">
             <h1>Derecho Civil en Piura</h1>
             <p>En <strong>Estudio Jurídico Roan</strong> brindamos asesoría legal integral en todas las ramas del Derecho Civil, con un enfoque humano y estratégico. Nuestra abogada litigante, María Lizbeth Roque Ancajima, cuenta con amplia experiencia en la resolución de conflictos civiles, tanto en vía judicial como extrajudicial.</p>
             
-            <div class="service-detail" style="background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px;">
+            <div class="service-detail">
                 <h2>Áreas de práctica en Derecho Civil</h2>
                 <ul>
                     <li><strong>Contratos:</strong> Elaboración, revisión y negociación de contratos civiles y comerciales (compraventa, arrendamiento, préstamo, etc.).</li>
@@ -105,6 +110,8 @@
                 <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
                 <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
                 <a href="index.html#contacto" class="btn-cta">Solicitar consulta</a>
+                <a href="index.html#servicios" class="btn-cta">← Volver a Servicios</a>
+                
             </div>
         </section>
     </main>
@@ -113,7 +120,7 @@
         <div class="footer-content" style="text-align: center; padding: 20px;">
             <p>© 2025 Estudio Jurídico Roan & Asociados — Todos los derechos reservados</p>
             <nav>
-                <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
+                <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
                     <li><a href="index.html#inicio">Inicio</a></li>
                     <li><a href="index.html#perfil">Nosotros</a></li>
                     <li><a href="index.html#servicios">Servicios</a></li>
