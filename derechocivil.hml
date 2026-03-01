@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogado Derecho Civil en Piura | Estudio Jurídico Roan</title>
+    <meta name="description" content="Especialistas en Derecho Civil en Piura. Contratos, sucesiones, obligaciones y responsabilidad civil. Asesoría integral para personas y empresas. ¡Consulta gratis!">
+    <link rel="canonical" href="https://estudiojuridicoroan.github.io/web/derecho-civil.html">
+    <!-- Datos estructurados para servicio legal -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Estudio Jurídico Roan - Derecho Civil",
+        "description": "Asesoría y defensa en Derecho Civil: contratos, sucesiones, obligaciones, responsabilidad civil. Atendemos en Piura y todo el Perú.",
+        "url": "https://estudiojuridicoroan.github.io/web/derecho-civil.html",
+        "telephone": "+51995248477",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Piura",
+            "addressRegion": "Piura",
+            "addressCountry": "PE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-5.194",
+            "longitude": "-80.632"
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "$$",
+        "sameAs": [
+            "https://www.facebook.com/estudiojuridicoroan"
+        ]
+    }
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header { background: #003366; color: white; padding: 1rem 0; text-align: center; }
+        nav { background: #f4f4f4; padding: 0.5rem; text-align: center; }
+        nav a { margin: 0 10px; text-decoration: none; color: #003366; font-weight: bold; }
+        .container { width: 90%; max-width: 1200px; margin: auto; overflow: hidden; padding: 20px 0; }
+        h1 { color: #003366; }
+        .service-detail { background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 20px; }
+        .cta-button { display: inline-block; background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        footer { background: #003366; color: white; text-align: center; padding: 1rem 0; margin-top: 20px; }
+        .faq-item { margin-bottom: 15px; }
+        .faq-question { font-weight: bold; color: #003366; }
+        .contact-info { background: #eef; padding: 10px; border-left: 4px solid #003366; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudio Jurídico Roan & Asociados</h1>
+        <p>Abogados en Piura - Especialistas en Derecho Civil</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="derecho-civil.html">Derecho Civil</a>
+        <a href="derecho-de-familia.html">Derecho de Familia</a>
+        <a href="derecho-laboral.html">Derecho Laboral</a>
+        <a href="derecho-penal.html">Derecho Penal</a>
+        <a href="conciliacion-extrajudicial.html">Conciliación</a>
+        <a href="asesoria-documentaria.html">Asesoría Documentaria</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="container">
+        <h1>Derecho Civil en Piura</h1>
+        <p>En <strong>Estudio Jurídico Roan</strong> brindamos asesoría legal integral en todas las ramas del Derecho Civil, con un enfoque humano y estratégico. Nuestra abogada litigante, María Lizbeth Roque Ancajima, cuenta con amplia experiencia en la resolución de conflictos civiles, tanto en vía judicial como extrajudicial.</p>
+        
+        <div class="service-detail">
+            <h2>Áreas de práctica en Derecho Civil</h2>
+            <ul>
+                <li><strong>Contratos:</strong> Elaboración, revisión y negociación de contratos civiles y comerciales (compraventa, arrendamiento, préstamo, etc.).</li>
+                <li><strong>Sucesiones y testamentos:</strong> Planificación sucesoria, testamentos, declaratorias de herederos, partición de bienes.</li>
+                <li><strong>Obligaciones y responsabilidad civil:</strong> Reclamación de deudas, incumplimientos contractuales, indemnizaciones por daños.</li>
+                <li><strong>Derechos reales:</strong> Propiedad, usufructo, servidumbres, prescripción adquisitiva.</li>
+                <li><strong>Familia (ver página específica):</strong> Divorcios, tenencia, alimentos, etc.</li>
+            </ul>
+        </div>
+
+        <div class="service-detail">
+            <h2>Preguntas frecuentes sobre Derecho Civil</h2>
+            <div class="faq-item">
+                <div class="faq-question">¿Necesito un abogado para hacer un contrato de compraventa?</div>
+                <p>Sí, es altamente recomendable para evitar futuros conflictos. Nosotros redactamos contratos claros que protegen tus intereses.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Cuánto tiempo tarda una sucesión intestada en Piura?</div>
+                <p>Depende de la complejidad, pero en promedio puede tomar de 3 a 6 meses. Te asesoramos en todo el proceso.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Puedo reclamar una deuda sin ir a juicio?</div>
+                <p>Sí, existen mecanismos como la conciliación extrajudicial. Nosotros te ayudamos a recuperar tu dinero de forma rápida.</p>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h3>¿Necesitas asesoría en Derecho Civil?</h3>
+            <p>Contáctanos para una consulta personalizada en nuestro local en Piura o vía online.</p>
+            <p><strong>Teléfono/WhatsApp:</strong> <a href="tel:+51995248477">995 248 477</a></p>
+            <p><strong>Email:</strong> <a href="mailto:abogadamariaroque@gmail.com">abogadamariaroque@gmail.com</a></p>
+            <p><strong>Dirección:</strong> Piura, Perú (previa cita)</p>
+            <a href="contacto.html" class="cta-button">Solicitar consulta</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Estudio Jurídico Roan & Asociados - Abogados en Piura</p>
+        <p>Síguenos en <a href="#" style="color:white;">Facebook</a> | <a href="#" style="color:white;">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
